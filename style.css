@@ -1,0 +1,34 @@
+.calculator{
+    width: 250px;
+    height: 370px;
+    border: 2px solid black;
+    margin: 100px auto 0;
+    text-align: center;
+    background-color: rgb(83, 85, 80);
+    
+}
+.form{
+    padding:20%;
+    height:100%;    
+}
+.display {
+    margin: 0 0 20px;
+    width: 100%;    
+    padding: 4px 2px;
+    text-align: right;
+}
+.calcrow {
+    margin: 10px 0;
+    display: flex;
+}
+.key{
+    width: 70px;
+    height: 39px;
+    cursor: pointer;
+    border: soilid black;
+    transition: all .2s;
+    text-transform: uppercase;
+}
+.key:hover {
+    background-color:#758773;
+}
